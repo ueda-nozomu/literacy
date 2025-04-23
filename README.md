@@ -1,2 +1,2 @@
 # literacy
-https://github.com/ueda-nozomu/literacy　literacy
+literacy
