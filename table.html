@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>気温表（線のみ部分的）</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px;
+      font-size: 16px;
+    }
+    th, td {
+      padding: 6px 12px;
+      text-align: center;
+    }
+    thead th {
+      border-bottom: 2px solid black; /* ヘッダーの下の線 */
+    }
+    table {
+      border-top: 2px solid black;   /* 表の上線 */
+      border-bottom: 2px solid black;/* 表の下線 */
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>日</th>
+        <th>最低</th>
+        <th>最高</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>23</td><td>18</td><td>31</td></tr>
+      <tr><td>24</td><td>21</td><td>29</td></tr>
+      <tr><td>25</td><td>20</td><td>24</td></tr>
+      <tr><td>26</td><td>21</td><td>27</td></tr>
+      <tr><td>27</td><td>15</td><td>21</td></tr>
+      <tr><td>28</td><td>16</td><td>23</td></tr>
+      <tr><td>29</td><td>16</td><td>26</td></tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
