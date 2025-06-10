@@ -1,0 +1,20 @@
+h1 {
+    text-align: center; /* H1を中央寄せ */
+    padding: 20px;
+    font-size: 2.5em; /* H1のフォントサイズを大きく */
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 全体のフォント設定 */
+}
+
+/* 例: より複雑な要素にスタイルを適用する場合 */
+/* .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
